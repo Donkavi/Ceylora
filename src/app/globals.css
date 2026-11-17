@@ -1,0 +1,465 @@
+@import 'tailwindcss';
+
+@theme inline {
+  --font-display: var(--font-cormorant), 'Cormorant Garamond', Georgia, serif;
+  --font-sans: var(--font-manrope), 'Manrope', system-ui, sans-serif;
+}
+
+@theme {
+  --color-forest: #173d32;
+  --color-forest-deep: #0f2a22;
+  --color-tropical: #47745a;
+  --color-ocean: #397c91;
+  --color-sand: #e9ddc8;
+  --color-ivory: #f7f5ef;
+  --color-gold: #c99d62;
+  --color-charcoal: #242b27;
+  --color-mist: #d9d4c7;
+  --color-stone: #6b706a;
+
+  --ease-cinematic: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-soft: cubic-bezier(0.65, 0, 0.35, 1);
+
+  --animate-hero-zoom: hero-zoom 24s var(--ease-soft) infinite alternate;
+  --animate-scroll-line: scroll-line 2.4s var(--ease-soft) infinite;
+
+  @keyframes hero-zoom {
+    from {
+      transform: scale(1.04);
+    }
+    to {
+      transform: scale(1.14);
+    }
+  }
+
+  @keyframes page-in {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @keyframes scroll-line {
+    0% {
+      transform: scaleY(0);
+      transform-origin: top;
+    }
+    45% {
+      transform: scaleY(1);
+      transform-origin: top;
+    }
+    55% {
+      transform: scaleY(1);
+      transform-origin: bottom;
+    }
+    100% {
+      transform: scaleY(0);
+      transform-origin: bottom;
+    }
+  }
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background-color: var(--color-ivory);
+    color: var(--color-charcoal);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background: var(--color-gold);
+    color: var(--color-ivory);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-gold);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    font-family: var(--font-sans);
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+  }
+
+  .display-xl {
+    font-family: var(--font-display);
+    font-size: clamp(3rem, 8.5vw, 8.75rem);
+    line-height: 0.92;
+    letter-spacing: -0.025em;
+  }
+
+  .display-lg {
+    font-family: var(--font-display);
+    font-size: clamp(2.5rem, 6vw, 5.75rem);
+    line-height: 0.98;
+    letter-spacing: -0.02em;
+  }
+
+  .display-md {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 4vw, 3.75rem);
+    line-height: 1.04;
+    letter-spacing: -0.015em;
+  }
+
+  .display-sm {
+    font-family: var(--font-display);
+    font-size: clamp(1.625rem, 2.6vw, 2.375rem);
+    line-height: 1.12;
+  }
+
+  .lede {
+    font-size: clamp(1.0625rem, 1.35vw, 1.25rem);
+    line-height: 1.7;
+  }
+
+  .container-x {
+    width: 100%;
+    margin-inline: auto;
+    max-width: 92rem;
+    padding-inline: clamp(1.25rem, 4vw, 3.5rem);
+  }
+
+  .prose-ceylora p {
+    font-size: 1.0625rem;
+    line-height: 1.85;
+    color: color-mix(in oklab, var(--color-charcoal) 88%, transparent);
+  }
+
+  .prose-ceylora p + p {
+    margin-top: 1.4em;
+  }
+
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.6s var(--ease-cinematic);
+  }
+
+  .link-underline:hover,
+  .link-underline:focus-visible {
+    background-size: 100% 1px;
+  }
+
+  .grain::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.07;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Homepage journey: stacked by default (mobile, reduced motion, no JS); pinned on desktop once GSAP takes over. */
+.journey-ui {
+  display: none;
+}
+
+.journey[data-mode='pinned'] {
+  height: 100svh;
+}
+
+.journey[data-mode='pinned'] .journey-stage {
+  position: absolute;
+  inset: 0;
+}
+
+.journey[data-mode='pinned'] .journey-chapter {
+  position: absolute;
+  inset: 0;
+  height: auto;
+  min-height: 0;
+}
+
+.journey[data-mode='pinned'] .journey-chapter:not(:first-child) {
+  clip-path: inset(100% 0% 0% 0%);
+}
+
+.journey[data-mode='pinned'] .journey-ui {
+  display: flex;
+}
+
+.journey[data-mode='pinned'] .journey-chapter-index {
+  display: none;
+}
+
+/* Lenis smooth scrolling */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: clip;
+}
+
+/* Leaflet refinements */
+.leaflet-container {
+  font-family: var(--font-sans);
+  background: #0f3a4a;
+}
+
+.leaflet-control-attribution {
+  background: color-mix(in oklab, var(--color-ivory) 70%, transparent) !important;
+  font-size: 9px !important;
+  color: var(--color-stone) !important;
+  backdrop-filter: blur(6px);
+}
+
+.leaflet-control-attribution a {
+  color: var(--color-forest) !important;
+}
+
+.leaflet-bar {
+  border: none !important;
+  box-shadow: 0 8px 30px rgb(15 42 34 / 0.18) !important;
+  border-radius: 999px !important;
+  overflow: hidden;
+}
+
+.leaflet-bar a {
+  width: 38px !important;
+  height: 38px !important;
+  line-height: 38px !important;
+  background: var(--color-ivory) !important;
+  color: var(--color-forest) !important;
+  border-bottom-color: var(--color-sand) !important;
+  font-weight: 400;
+}
+
+.leaflet-bar a:hover {
+  background: var(--color-sand) !important;
+}
+
+.ceylora-marker {
+  background: transparent !important;
+  border: none !important;
+}
+
+.cm {
+  position: relative;
+  display: block;
+  width: 24px;
+  height: 24px;
+  transition:
+    transform 0.6s var(--ease-cinematic) var(--cm-delay, 0ms),
+    opacity 0.5s ease var(--cm-delay, 0ms);
+}
+
+.cm-dot {
+  position: absolute;
+  inset: 6px;
+  border-radius: 999px;
+  background: var(--cm);
+  box-shadow:
+    0 0 0 2px var(--color-ivory),
+    0 4px 12px rgb(0 0 0 / 0.35);
+  transition: transform 0.4s var(--ease-cinematic), background-color 0.4s;
+}
+
+.has-badge .cm {
+  width: 30px;
+  height: 30px;
+}
+
+.has-badge .cm-dot {
+  inset: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cm-badge {
+  color: var(--color-ivory);
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.has-badge.is-active .cm-dot {
+  transform: scale(1.25);
+}
+
+.has-badge.is-active .cm-badge {
+  color: var(--color-forest);
+}
+
+.cm-pulse {
+  position: absolute;
+  inset: 0;
+  border-radius: 999px;
+  border: 1.5px solid var(--color-ivory);
+  opacity: 0;
+}
+
+.cm-label {
+  position: absolute;
+  top: 50%;
+  left: 26px;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: rgb(15 42 34 / 0.78);
+  color: var(--color-ivory);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s;
+  backdrop-filter: blur(4px);
+}
+
+.ceylora-marker:hover .cm-dot,
+.ceylora-marker:focus-visible .cm-dot {
+  transform: scale(1.35);
+}
+
+.ceylora-marker:focus-visible {
+  outline: none;
+}
+
+.ceylora-marker:focus-visible .cm-label,
+.show-labels .cm-label,
+.ceylora-marker.is-active .cm-label {
+  opacity: 1;
+}
+
+.ceylora-marker.is-active .cm-dot {
+  background: var(--color-gold);
+  transform: scale(1.5);
+}
+
+.ceylora-marker.is-active .cm-pulse {
+  animation: cm-pulse 2.2s var(--ease-soft) infinite;
+}
+
+.ceylora-marker.is-hidden {
+  pointer-events: none;
+}
+
+.ceylora-marker.is-hidden .cm {
+  transform: scale(0.2);
+  opacity: 0;
+}
+
+@keyframes cm-pulse {
+  0% {
+    transform: scale(0.6);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+}
+
+.leaflet-container.is-satellite .leaflet-tile-pane {
+  filter: saturate(0.9) contrast(1.04) brightness(0.96);
+}
+
+.leaflet-container.is-map .leaflet-tile-pane {
+  filter: sepia(0.18) saturate(0.85) hue-rotate(-6deg);
+}
+
+.route-line {
+  animation: route-dash 22s linear infinite;
+}
+
+@keyframes route-dash {
+  to {
+    stroke-dashoffset: -280;
+  }
+}
+
+.ceylora-tooltip {
+  padding: 0 !important;
+  border: none !important;
+  border-radius: 14px !important;
+  background: var(--color-ivory) !important;
+  box-shadow: 0 18px 50px rgb(15 42 34 / 0.28) !important;
+  overflow: hidden;
+}
+
+.ceylora-tooltip::before {
+  display: none;
+}
+
+.ceylora-label {
+  padding: 3px 9px !important;
+  border: none !important;
+  border-radius: 999px !important;
+  background: rgb(23 61 50 / 0.82) !important;
+  color: var(--color-ivory) !important;
+  font-size: 11px !important;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  box-shadow: none !important;
+}
+
+.ceylora-label::before {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

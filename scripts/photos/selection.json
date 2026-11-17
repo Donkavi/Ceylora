@@ -1,0 +1,967 @@
+{
+ "sigiriya": [
+  [
+   10,
+   "sigiriya-hero",
+   "Sigiriya Lion Rock rising from emerald forest with the Matale hills behind",
+   "50% 45%"
+  ],
+  [
+   14,
+   "journey-ancient",
+   "Sigiriya rock seen through morning haze from the summit of Pidurangala"
+  ],
+  [
+   19,
+   "sigiriya-aerial",
+   "Aerial view of the Sigiriya rock fortress surrounded by dry-zone forest"
+  ],
+  [
+   4,
+   "sigiriya-rockface",
+   "The sheer western face of Sigiriya rock under a bright sky"
+  ],
+  [
+   5,
+   "sigiriya-water-gardens",
+   "The symmetrical royal water gardens at the foot of Sigiriya"
+  ],
+  [
+   7,
+   "home-hero",
+   "Sigiriya rock rising from the forest at dusk, seen from Pidurangala with the central hills beyond"
+  ]
+ ],
+ "dambulla": [
+  [
+   16,
+   "dambulla-hero",
+   "The whitewashed cave temple façade tucked beneath the great rock at Dambulla"
+  ],
+  [
+   6,
+   "dambulla-buddhas",
+   "A row of standing gilded Buddha statues inside the Dambulla caves"
+  ],
+  [
+   18,
+   "dambulla-reclining",
+   "The reclining Buddha beneath painted ceilings in the Dambulla cave temple"
+  ],
+  [
+   5,
+   "dambulla-seated",
+   "A seated Buddha framed by painted murals at Dambulla"
+  ],
+  [
+   1,
+   "dambulla-colonnade",
+   "The white colonnade of the Dambulla cave temple under the overhanging rock"
+  ]
+ ],
+ "anuradhapura": [
+  [
+   1,
+   "anuradhapura-hero",
+   "The great white dome of Ruwanwelisaya stupa beneath towering clouds in Anuradhapura"
+  ],
+  [
+   6,
+   "anuradhapura-flags",
+   "Buddhist flags fluttering before Ruwanwelisaya on a festival day"
+  ],
+  [
+   23,
+   "anuradhapura-jetavana",
+   "The brick dome of Jetavanaramaya, once the tallest stupa in the ancient world"
+  ],
+  [
+   15,
+   "anuradhapura-elephant-wall",
+   "The procession of carved elephants guarding the base of Ruwanwelisaya"
+  ],
+  [
+   11,
+   "anuradhapura-sacred-grove",
+   "A white stupa glimpsed across the green sacred city of Anuradhapura"
+  ]
+ ],
+ "polonnaruwa": [
+  [
+   17,
+   "polonnaruwa-hero",
+   "The circular Vatadage relic house of Polonnaruwa with its stone columns and guardstones"
+  ],
+  [
+   1,
+   "polonnaruwa-gal-vihara",
+   "The seated Buddha carved into granite at Gal Vihara, Polonnaruwa"
+  ],
+  [
+   21,
+   "polonnaruwa-moonstone",
+   "An intricately carved moonstone at the entrance to the Polonnaruwa Vatadage"
+  ],
+  [
+   0,
+   "polonnaruwa-reclining",
+   "The serene face of the reclining Buddha at Gal Vihara"
+  ],
+  [
+   20,
+   "polonnaruwa-guardstones",
+   "Carved guardstones flanking a stairway in the Polonnaruwa quadrangle"
+  ]
+ ],
+ "ella": [
+  [
+   7,
+   "ella-hero",
+   "The deep green Ella Gap opening between the mountains of Sri Lanka's hill country"
+  ],
+  [
+   11,
+   "ella-little-adams",
+   "The grassy ridge of Little Adam's Peak emerging from drifting cloud"
+  ],
+  [
+   20,
+   "ella-rock",
+   "Ella Rock wrapped in cloud above the forested valley"
+  ],
+  [
+   9,
+   "ella-cloud-sea",
+   "Morning cloud pouring through the valleys below Ella"
+  ]
+ ],
+ "nuwaraeliya": [
+  [
+   5,
+   "nuwara-eliya-hero",
+   "Highland tea terraces rolling towards the mountains around Nuwara Eliya"
+  ],
+  [
+   12,
+   "nuwara-eliya-gregory-lake",
+   "Sunset reflected in Gregory Lake, Nuwara Eliya"
+  ],
+  [
+   20,
+   "nuwara-eliya-post-office",
+   "The red-brick Tudor-style post office of Nuwara Eliya"
+  ],
+  [
+   15,
+   "nuwara-eliya-tea-estate",
+   "A tea estate near Nanu Oya on the edge of Nuwara Eliya"
+  ],
+  [
+   18,
+   "nuwara-eliya-mahagasthota",
+   "Market gardens and tea on the hills of Mahagasthota above Nuwara Eliya"
+  ],
+  [
+   2,
+   "nuwara-eliya-plucker",
+   "A tea plucker picking leaves on a Nuwara Eliya estate"
+  ]
+ ],
+ "haputale": [
+  [
+   13,
+   "haputale-hero",
+   "Blue ridges stretching to the horizon from the Haputale viewpoint"
+  ],
+  [
+   20,
+   "haputale-dambatenne",
+   "Tea on the Dambatenne estate at 1,800 metres above Haputale"
+  ],
+  [
+   15,
+   "haputale-pass",
+   "Looking south from the Haputale pass towards the plains"
+  ],
+  [
+   6,
+   "haputale-mist",
+   "Mist drifting between shade trees on a Haputale tea plantation"
+  ],
+  [
+   22,
+   "haputale-clouds",
+   "A sea of cloud below Haputale town at sunrise"
+  ]
+ ],
+ "hortonplains": [
+  [
+   1,
+   "horton-plains-hero",
+   "Golden tussock grassland and a winding stream on the Horton Plains plateau"
+  ],
+  [
+   0,
+   "horton-plains-bakers-falls",
+   "Baker's Falls cascading over dark rock in Horton Plains National Park"
+  ],
+  [
+   20,
+   "horton-plains-sambar",
+   "A sambar stag standing in the grassland of Horton Plains"
+  ],
+  [
+   13,
+   "horton-plains-lone-tree",
+   "A lone wind-shaped tree on the open plains under a blue sky"
+  ],
+  [
+   14,
+   "horton-plains-pond",
+   "A still pool fringed by cloud forest on Horton Plains"
+  ]
+ ],
+ "kandy": [
+  [
+   1,
+   "kandy-hero",
+   "Kandy and its lake cradled by forested hills, seen from Arthur's Seat"
+  ],
+  [
+   0,
+   "kandy-lake-island",
+   "The palm-crowned island in the middle of Kandy Lake"
+  ],
+  [
+   12,
+   "kandy-viewpoint",
+   "Kandy Lake and the city from the hillside viewpoint"
+  ],
+  [
+   4,
+   "kandy-lake-mist",
+   "Morning haze over the still water of Kandy Lake"
+  ],
+  [
+   21,
+   "kandy-city",
+   "The lush, hilly city of Kandy gathered around its lake"
+  ]
+ ],
+ "mirissa": [
+  [
+   3,
+   "mirissa-hero",
+   "Turquoise water and dark rocks on the shore at Mirissa with the headland beyond",
+   "50% 60%"
+  ],
+  [
+   14,
+   "mirissa-aerial",
+   "Aerial view of Mirissa's palm-fringed crescent bay and headland"
+  ],
+  [
+   12,
+   "mirissa-palms",
+   "Coconut palms leaning over the rocks at Mirissa"
+  ],
+  [
+   19,
+   "mirissa-sunset",
+   "Sunset silhouettes on Mirissa beach"
+  ],
+  [
+   0,
+   "mirissa-beach",
+   "Mirissa beach with palms and sunloungers under a soft sky"
+  ],
+  [
+   15,
+   "journey-coast",
+   "Aerial view of Mirissa beach, its crescent of sand framed by palms and turquoise water"
+  ]
+ ],
+ "unawatuna": [
+  [
+   5,
+   "unawatuna-hero",
+   "Unawatuna's sheltered bay seen from the stupa at its southern end"
+  ],
+  [
+   14,
+   "unawatuna-jungle-beach",
+   "Jungle Beach below the white Japanese Peace Pagoda on Rumassala"
+  ],
+  [
+   6,
+   "unawatuna-wijaya-sunset",
+   "Sunset over the rocks of Wijaya beach near Unawatuna"
+  ],
+  [
+   0,
+   "unawatuna-beach",
+   "Palms and calm turquoise water on Unawatuna beach"
+  ],
+  [
+   15,
+   "unawatuna-reef",
+   "A ringed angelfish on the reef off Unawatuna"
+  ]
+ ],
+ "galle": [
+  [
+   8,
+   "galle-hero",
+   "A palm-shaded bastion of Galle Fort jutting into the Indian Ocean"
+  ],
+  [
+   0,
+   "galle-meeran-mosque",
+   "The white Meeran Mosque on the Galle Fort ramparts beneath a storm sky"
+  ],
+  [
+   9,
+   "galle-street",
+   "A lane of colonial houses inside Galle Fort"
+  ],
+  [
+   14,
+   "galle-ramparts",
+   "The grassy ramparts and bastions of Galle Fort"
+  ],
+  [
+   19,
+   "galle-voc-crest",
+   "The Dutch East India Company crest above the Old Gate of Galle Fort"
+  ],
+  [
+   20,
+   "galle-lighthouse",
+   "Galle lighthouse rising between coconut palms"
+  ]
+ ],
+ "tangalle": [
+  [
+   0,
+   "tangalle-hero",
+   "Rocks, surf and coconut palms on Goyambokka beach near Tangalle"
+  ],
+  [
+   13,
+   "tangalle-goyambokka",
+   "The sheltered sandy cove of Goyambokka"
+  ],
+  [
+   7,
+   "tangalle-evening",
+   "Evening light on the wide beach at Tangalle"
+  ],
+  [
+   14,
+   "tangalle-marakolliya",
+   "Beach cabanas beneath the palms at Marakolliya, Tangalle"
+  ],
+  [
+   19,
+   "tangalle-lagoon",
+   "Sunset over the lagoon near Marakolliya beach"
+  ]
+ ],
+ "arugambay": [
+  [
+   2,
+   "arugam-bay-hero",
+   "Aerial view along the golden curve of Arugam Bay with fishing boats on the sand"
+  ],
+  [
+   0,
+   "arugam-bay-heda-oya",
+   "Evening over the Heda Oya river seen from Elephant Rock near Arugam Bay"
+  ],
+  [
+   9,
+   "arugam-bay-waves",
+   "Waves rolling onto the beach at Arugam Bay from above"
+  ],
+  [
+   17,
+   "arugam-bay-lagoon",
+   "Fishermen in a canoe on the Urani lagoon near Pottuvil"
+  ],
+  [
+   23,
+   "arugam-bay-kumana",
+   "The wetlands of Kumana National Park south of Arugam Bay"
+  ]
+ ],
+ "trincomalee": [
+  [
+   1,
+   "trincomalee-hero",
+   "Clear turquoise water off the beach at Trincomalee"
+  ],
+  [
+   6,
+   "trincomalee-koneswaram",
+   "The great statue of Lord Shiva at Koneswaram temple, Trincomalee"
+  ],
+  [
+   0,
+   "trincomalee-nilaveli",
+   "Beach shelters on the white sand of Nilaveli"
+  ],
+  [
+   3,
+   "trincomalee-bay",
+   "The sweep of Trincomalee bay under a sky of white clouds"
+  ],
+  [
+   7,
+   "trincomalee-dutch-bay",
+   "Sunrise over Dutch Bay, Trincomalee"
+  ],
+  [
+   8,
+   "trincomalee-fishermen",
+   "Fishermen hauling a beach-seine net on the shore at Trincomalee"
+  ]
+ ],
+ "pasikudah": [
+  [
+   12,
+   "pasikudah-hero",
+   "The shallow, luminous blue water of Pasikudah bay from above"
+  ],
+  [
+   8,
+   "pasikudah-wading",
+   "Visitors wading far out into the calm shallows of Pasikudah"
+  ],
+  [
+   0,
+   "pasikudah-rocks",
+   "Granite boulders at the edge of Pasikudah beach"
+  ],
+  [
+   2,
+   "pasikudah-palms",
+   "A grove of coconut palms behind Pasikudah beach"
+  ],
+  [
+   22,
+   "pasikudah-sunset",
+   "Evening light over the bay at Pasikudah"
+  ]
+ ],
+ "yala": [
+  [
+   18,
+   "yala-hero",
+   "A lake and granite outcrop in the dry scrub of Yala National Park"
+  ],
+  [
+   17,
+   "yala-leopard",
+   "A young Sri Lankan leopard yawning in the shade at Yala National Park"
+  ],
+  [
+   5,
+   "yala-elephants",
+   "A family of Sri Lankan elephants at a waterhole in Yala"
+  ],
+  [
+   12,
+   "yala-sloth-bear",
+   "A sloth bear walking along a sandy track in Yala National Park"
+  ],
+  [
+   2,
+   "yala-bee-eater",
+   "A blue-tailed bee-eater perched in Yala National Park"
+  ],
+  [
+   13,
+   "yala-sunrise",
+   "A cloudy sunrise over a lagoon in Yala National Park"
+  ]
+ ],
+ "udawalawe": [
+  [
+   7,
+   "udawalawe-hero",
+   "A mother elephant and her calf grazing in the grassland of Udawalawe"
+  ],
+  [
+   17,
+   "udawalawe-bathing",
+   "A herd of elephants bathing in a river at Udawalawe"
+  ],
+  [
+   0,
+   "udawalawe-dead-wood",
+   "Bleached dead trees standing in the Udawalawe reservoir"
+  ],
+  [
+   15,
+   "udawalawe-stork",
+   "A painted stork fishing in the shallows at Udawalawe"
+  ],
+  [
+   16,
+   "udawalawe-mountains",
+   "Water buffalo in the reservoir beneath the hills at Udawalawe"
+  ]
+ ],
+ "wilpattu": [
+  [
+   22,
+   "wilpattu-hero",
+   "A quiet villu lake ringed by grassland and forest in Wilpattu National Park"
+  ],
+  [
+   6,
+   "wilpattu-leopard",
+   "A Sri Lankan leopard walking along a sandy trail in Wilpattu"
+  ],
+  [
+   2,
+   "wilpattu-sambar",
+   "A sambar deer stag at the forest edge in Wilpattu"
+  ],
+  [
+   8,
+   "wilpattu-eagle",
+   "A crested serpent eagle watching from a branch in Wilpattu"
+  ],
+  [
+   23,
+   "wilpattu-villu",
+   "Open grassland and shade trees beside a villu in Wilpattu"
+  ]
+ ],
+ "sinharaja": [
+  [
+   11,
+   "sinharaja-hero",
+   "Giant lianas hanging from towering trees in the Sinharaja rainforest"
+  ],
+  [
+   7,
+   "sinharaja-waterfall",
+   "A waterfall spilling over rock in the Sinharaja rainforest near Deniyaya"
+  ],
+  [
+   15,
+   "sinharaja-junglefowl",
+   "A Sri Lanka junglefowl, the national bird, on the Sinharaja forest floor"
+  ],
+  [
+   23,
+   "sinharaja-river",
+   "A clear river running beside the dense canopy of Sinharaja"
+  ],
+  [
+   0,
+   "sinharaja-stream",
+   "A tannin-dark stream winding between boulders in Sinharaja"
+  ],
+  [
+   12,
+   "sinharaja-bulbul",
+   "A yellow-browed bulbul among the leaves of the Sinharaja rainforest"
+  ]
+ ],
+ "train": [
+  [
+   18,
+   "exp-train",
+   "The Denuwara Manike train crossing the Nine Arch Bridge near Ella"
+  ],
+  [
+   10,
+   "train-to-ella",
+   "A red hill-country train bound for Ella, passengers leaning from its doorways"
+  ],
+  [
+   0,
+   "haputale-railway",
+   "The Badulla line running along the Haputale ridge in the hill country"
+  ],
+  [
+   19,
+   "train-demodara",
+   "A train approaching Demodara station across the iron bridge"
+  ],
+  [
+   13,
+   "train-viaduct",
+   "A train on a viaduct framed by forested hills"
+  ]
+ ],
+ "waterfalls": [
+  [
+   0,
+   "ella-ravana-falls",
+   "Ravana Falls tumbling over tiered rock near Ella"
+  ],
+  [
+   15,
+   "haputale-diyaluma",
+   "Diyaluma Falls dropping 220 metres from a sheer cliff near Haputale"
+  ],
+  [
+   17,
+   "exp-waterfalls",
+   "Bambarakanda, the tallest waterfall in Sri Lanka, falling from a forested escarpment"
+  ],
+  [
+   16,
+   "diyaluma-pools",
+   "Hikers at the natural rock pools above Diyaluma Falls"
+  ],
+  [
+   23,
+   "dunhinda-falls",
+   "Dunhinda Falls spreading like a bridal veil near Badulla"
+  ]
+ ],
+ "food": [
+  [
+   2,
+   "exp-food",
+   "A traditional Jaffna rice and curry served on a banana leaf in Point Pedro"
+  ],
+  [
+   1,
+   "food-rice-curry",
+   "A Sri Lankan rice and curry plate with several vegetable curries and papadum"
+  ],
+  [
+   20,
+   "food-crab",
+   "Fresh crab curry cooked near the fish market in Galle"
+  ]
+ ],
+ "architecture": [
+  [
+   9,
+   "culture-lunuganga",
+   "Geoffrey Bawa's country house at Lunuganga, Bentota, opening onto the garden"
+  ],
+  [
+   0,
+   "culture-kandalama",
+   "The jungle-covered Kandalama hotel by Geoffrey Bawa, near Dambulla"
+  ],
+  [
+   16,
+   "culture-colombo-fort",
+   "Restored colonial-era buildings and colonnades in Colombo Fort"
+  ]
+ ],
+ "crafts": [
+  [
+   9,
+   "culture-masks",
+   "Hand-carved and painted traditional masks at Ambalangoda"
+  ],
+  [
+   2,
+   "culture-mask-carving",
+   "A craftsman carving a wooden mask at the Ambalangoda Mask Museum"
+  ],
+  [
+   23,
+   "culture-batik",
+   "An artisan applying dye to a batik cloth in Sri Lanka"
+  ]
+ ],
+ "kandytooth": [
+  [
+   11,
+   "journey-culture",
+   "The Temple of the Sacred Tooth Relic on the shore of Kandy Lake beneath green hills"
+  ],
+  [
+   0,
+   "kandy-temple-of-the-tooth",
+   "The octagonal Pattirippuwa and moat of the Temple of the Sacred Tooth Relic, Kandy"
+  ],
+  [
+   15,
+   "kandy-tooth-shrine",
+   "The golden inner shrine of the Temple of the Sacred Tooth Relic"
+  ],
+  [
+   14,
+   "culture-tooth-murals",
+   "A painted corridor of murals inside the Temple of the Sacred Tooth Relic"
+  ]
+ ],
+ "peradeniya": [
+  [
+   9,
+   "kandy-peradeniya",
+   "The avenue of royal palms in the Royal Botanical Gardens, Peradeniya"
+  ]
+ ],
+ "tea": [
+  [
+   1,
+   "exp-tea",
+   "Aerial view of the Loolkandura estate, where Ceylon tea was first planted in 1867"
+  ],
+  [
+   3,
+   "journey-highlands",
+   "Morning light over tea estates on the slopes of Namunukula in the Uva hills"
+  ],
+  [
+   15,
+   "tea-pluckers",
+   "Tea pluckers at work on an estate near Nuwara Eliya"
+  ],
+  [
+   4,
+   "tea-hills",
+   "Rolling rows of tea bushes under a bright highland sky"
+  ]
+ ],
+ "whales": [
+  [
+   16,
+   "mirissa-dolphins",
+   "Spinner dolphins leaping off Mirissa on a whale-watching trip"
+  ],
+  [
+   0,
+   "mirissa-blue-whale",
+   "A blue whale surfacing to breathe in the deep water off Sri Lanka's south coast"
+  ],
+  [
+   9,
+   "exp-whales",
+   "A blue whale raising its tail before a deep dive off the south coast"
+  ]
+ ],
+ "surf": [
+  [
+   7,
+   "exp-surf",
+   "Surfers riding Indian Ocean waves at Panama beach near Arugam Bay"
+  ],
+  [
+   22,
+   "arugam-bay-beach",
+   "The long sandy beach of Arugam Bay seen from north to south"
+  ],
+  [
+   15,
+   "hiriketiya-hero",
+   "The palm-fringed horseshoe bay near Dikwella, beloved by surfers"
+  ],
+  [
+   4,
+   "coast-thiranagama",
+   "A palm-lined beach at Thiranagama on the south-west coast"
+  ]
+ ],
+ "hiking": [
+  [
+   7,
+   "exp-hiking",
+   "Sunrise over a sea of cloud from the summit of Sri Pada, Adam's Peak"
+  ],
+  [
+   9,
+   "sri-pada-shadow",
+   "The triangular shadow of Adam's Peak cast across the hills at dawn"
+  ],
+  [
+   3,
+   "sri-pada-cone",
+   "The perfect cone of Adam's Peak rising above the forest"
+  ]
+ ],
+ "ninearch": [
+  [
+   8,
+   "ella-nine-arch",
+   "The Nine Arch Bridge curving through the jungle near Ella"
+  ]
+ ],
+ "worldsend": [
+  [
+   4,
+   "horton-plains-worlds-end",
+   "The view from World's End across mountains and valleys far below Horton Plains"
+  ],
+  [
+   17,
+   "worlds-end-cloud",
+   "Cloud pouring over the precipice at World's End"
+  ]
+ ],
+ "diving": [
+  [
+   17,
+   "exp-diving",
+   "A diver gliding over coral gardens at Pigeon Island National Park"
+  ],
+  [
+   1,
+   "trincomalee-pigeon-island",
+   "Large Pigeon Island and its coral-fringed shore off Nilaveli"
+  ],
+  [
+   2,
+   "diving-hikkaduwa",
+   "Fish over the fringing coral reef at Hikkaduwa"
+  ],
+  [
+   5,
+   "unawatuna-jungle-cove",
+   "The turquoise cove of Jungle Beach near Galle"
+  ]
+ ],
+ "hiriketiya": [
+  [
+   0,
+   "hiriketiya-dikwella-beach",
+   "Waves breaking over the rocks of Dikwella beach on a windy afternoon"
+  ],
+  [
+   13,
+   "hiriketiya-wewurukannala",
+   "The giant seated Buddha of Wewurukannala Vihara in Dikwella"
+  ],
+  [
+   9,
+   "hiriketiya-temple-murals",
+   "Painted figures in the image house of Wewurukannala Vihara"
+  ],
+  [
+   11,
+   "hiriketiya-temple",
+   "White stupas and the great Buddha rising over Wewurukannala Vihara"
+  ]
+ ],
+ "liptons": [
+  [
+   9,
+   "haputale-liptons-seat",
+   "Tea terraces and lone shade trees on the slopes at Lipton's Seat"
+  ],
+  [
+   5,
+   "haputale-liptons-view",
+   "The view across five districts from the top of Haputale"
+  ]
+ ],
+ "community": [
+  [
+   13,
+   "culture-stilt-fishermen",
+   "Stilt fishermen perched above the surf on the south coast"
+  ],
+  [
+   22,
+   "culture-fishermen-nets",
+   "Fishermen hauling a beach-seine net together on the shore"
+  ],
+  [
+   0,
+   "stilt-koggala",
+   "Fishermen practising traditional stilt fishing at Koggala near Galle"
+  ],
+  [
+   14,
+   "stilt-ahangama",
+   "Two stilt fishermen resting on their poles at Ahangama"
+  ]
+ ],
+ "leopard": [
+  [
+   10,
+   "journey-wild",
+   "A Sri Lankan leopard resting on a granite boulder in Yala National Park"
+  ],
+  [
+   15,
+   "exp-safari",
+   "A watchful leopard in the scrub of Yala National Park"
+  ],
+  [
+   14,
+   "leopard-portrait",
+   "A close portrait of a Sri Lankan leopard in Yala"
+  ]
+ ],
+ "perahera": [
+  [
+   1,
+   "culture-perahera",
+   "Caparisoned elephants glowing with lights in the Kandy Esala Perahera"
+  ],
+  [
+   3,
+   "culture-fire-dancer",
+   "A performer spinning a wheel of fire at the Kandy Esala Perahera"
+  ],
+  [
+   13,
+   "culture-drummers",
+   "Drummers and dancers in the Perahera procession"
+  ]
+ ],
+ "minneriya": [
+  [
+   6,
+   "polonnaruwa-minneriya",
+   "A herd of elephants moving through golden grass at Minneriya National Park"
+  ]
+ ],
+ "landscape": [
+  [
+   23,
+   "footer-landscape",
+   "Morning mist settling over the hills and reservoirs below the Kandy–Mahiyangana road"
+  ],
+  [
+   6,
+   "landscape-ambewela",
+   "Green hills and grazing land near Ambewela in the high plains"
+  ]
+ ],
+ "temples": [
+  [
+   18,
+   "culture-monastery",
+   "Mahamevnawa Buddhist Monastery at Kumbalwela in the evening, seen from Ella"
+  ],
+  [
+   23,
+   "culture-gangaramaya",
+   "Rows of seated Buddha statues at Gangaramaya Temple, Colombo"
+  ]
+ ],
+ "wildlife": [
+  [
+   1,
+   "leopard-wilpattu",
+   "A Sri Lankan leopard in the forest of Wilpattu National Park"
+  ]
+ ],
+ "kandyandance": [
+  [
+   0,
+   "exp-culture",
+   "Kandyan dancers in silver headdresses performing in Kandy"
+  ],
+  [
+   3,
+   "culture-dancers",
+   "Women dancers in blue performing a Kandyan dance"
+  ]
+ ]
+}
